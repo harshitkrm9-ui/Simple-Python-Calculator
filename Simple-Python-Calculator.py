@@ -24,11 +24,12 @@ def Subtraction(Num1, Num2):
     return Difference
 
 if Operation == "A":
-    print("The sum of those two numbers is ", Addition(Num1, Num2)
+    print("The sum of those two numbers is ", Addition(Num1, Num2))
 elif Operation == "M":
-    print("The product of those two numbers is ", Multiplication(Num1, Num2)
+    print("The product of those two numbers is ", Multiplication(Num1, Num2))
 elif Operation == "D":
-    print("The quotient of those two numbers is ", Division(Num1, Num2)
+    print("The quotient of those two numbers is ", Division(Num1, Num2))
 elif Operation == "S":
-    print("The difference of those two numbers is ", Subtraction(Num1, Num2)
+    print("The difference of those two numbers is ", Subtraction(Num1, Num2))
+
 
