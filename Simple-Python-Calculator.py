@@ -7,19 +7,19 @@ while Num2 == 0 and Operation == "D":
     print("Sorry, but the second number cannot be 0 for division.")
     Num2 = float(input("Enter second number again: "))
 
-def Addition():
+def Addition(Num1, Num2):
     Sum = Num1 + Num2
     return Sum
 
-def Multiplication():
+def Multiplication(Num1, Num2):
     Product = Num1 * Num2
     return Product
 
-def Division():
+def Division(Num1, Num2):
     Quotient = Num1 / Num2
     return Quotient
 
-def Subtraction():
+def Subtraction(Num1, Num2):
     Difference = Num1 - Num2
     return Difference
 
